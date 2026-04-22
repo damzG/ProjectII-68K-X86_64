@@ -22,4 +22,10 @@ No input Validation
 It accepts anything. No check for: Overflow, negative numbers, non-numeric input
 
 # Vulnerability 3
-Inconsistent stack handling.
+Arithmetic Overflow
+No overflow detection and could wrap around silently
+
+# Vulnerability 4
+No Stack Protection
+Return address is pushed to stack
+RTS Pops it
